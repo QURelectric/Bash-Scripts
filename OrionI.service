@@ -1,0 +1,11 @@
+[Unit]
+Description = Run
+
+[Service]
+Type=oneshot
+ExecStart=/home/OrionI/bootup_bash.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
